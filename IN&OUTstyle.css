@@ -1,0 +1,99 @@
+body{
+  background-color:   #ead2fe;
+  font-family: 'Arial';
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* style for navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: pink;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+#about {
+  background-color: #ffff;
+}
+
+table {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 40px;
+
+}
+
+
+td {
+  width: 400px;
+  height: 400px;
+  margin: 100px;
+  padding: 10px;
+}

@@ -171,9 +171,13 @@
     <p>can be found at target,amazon,walgreens,and your local beauty supply store</p>
 
     <img src="smoothie.jpg">
+    <p>
     <img src="jamaica.jpg">
     <P> 5 star rating</p>
-      <P>
+      <P>strenghten hair strands</p>
+        <P> restores damaged hair and helps it grow</p>
+          <P> products range in price</p>
+            <p> walmart, walgreens, sally beauty, and your local beauty supply store</p>
 
     <img width="220px"src="coconut.jpg">
     <p>5 star rating</p>
@@ -277,6 +281,30 @@
     <img src="curly.jpg">
 
   A few hairstyles that can be done with 4c type hair.
-</script>
+
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function first() {
+    document.getElementById("first-dd").classList.toggle("show");
+  }
+
+  function second() {
+    document.getElementById("second-dd").classList.toggle("show");
+  }
+
+  function third() {
+    document.getElementById("third-dd").classList.toggle("show")
+  }
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
 </body>
 </html>

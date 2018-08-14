@@ -142,6 +142,29 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/fe0p5R48C_A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pNzLYbyV4TE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
-</script>
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function first() {
+    document.getElementById("first-dd").classList.toggle("show");
+  }
+
+  function second() {
+    document.getElementById("second-dd").classList.toggle("show");
+  }
+
+  function third() {
+    document.getElementById("third-dd").classList.toggle("show")
+  }
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
 </body>
 </html>

@@ -97,3 +97,7 @@ td {
   margin: 100px;
   padding: 10px;
 }
+
+td:hover {
+  background-color: gray;
+}
